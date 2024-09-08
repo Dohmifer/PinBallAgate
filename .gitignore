@@ -1,0 +1,7 @@
+
+PinBall/Library/*
+PinBall/Logs/*
+PinBall/Temp/*
+
+.vsconfig
+*.sln
