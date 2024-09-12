@@ -8,10 +8,17 @@ public class PaddleController : MonoBehaviour
     public float springPower = 1000;
     private HingeJoint hinge;
 
+    // menyimpan angka target position saat ditekan dan dilepas
+    private float targetPressed;
+    private float targetRelease;
+
     // Start is called before the first frame update
     void Start()
     {
         hinge = GetComponent<HingeJoint>();
+
+        targetPressed = hinge.limits.max;
+        targetRelease = hinge.limits.min;
     }
 
     // Update is called once per frame
