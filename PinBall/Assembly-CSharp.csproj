@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\SwitchController.cs" />
     <Compile Include="Assets\Scripts\BumperController.cs" />
+    <Compile Include="Assets\Scripts\Switch.cs" />
     <Compile Include="Assets\Scripts\PaddleController.cs" />
   </ItemGroup>
   <ItemGroup>

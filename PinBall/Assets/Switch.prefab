@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6294744537843502926}
   - component: {fileID: 3696422403109666951}
   - component: {fileID: 6419014792584960994}
-  - component: {fileID: 1853238504669236433}
+  - component: {fileID: 4560386694851519921}
   m_Layer: 0
   m_Name: Switch
   m_TagString: Untagged
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1853238504669236433
+--- !u!114 &4560386694851519921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,7 +116,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7754057835100725761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28509482f74f702478b95d2fefa31c45, type: 3}
+  m_Script: {fileID: 11500000, guid: 63976bff02e64094c9636847eaa615a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bola: {fileID: 0}
+  offMaterial: {fileID: 2100000, guid: 0d18ce7a72645a843989e8257d7200e1, type: 2}
+  onMaterial: {fileID: 2100000, guid: b130757371072264d819affb83a60f9b, type: 2}
